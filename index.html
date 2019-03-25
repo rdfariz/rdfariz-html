@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ais site</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="Assets/CSS/style.css">
+    <link rel="shortcut icon" href="Assets/IMG/Logo.png" type="image/x-icon">
+
+     <!-- FONT AWESOME- --> 
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+     <script>
+        $(document).ready(function(){
+            //PRELOADER TIMEOUT
+            setTimeout(function(){
+                $(".preloader").fadeOut('slow');
+            },1000);
+        })
+    </script>
+</head>
+<body>
+    <!-- PRELOADER -->
+    <div class="preloader">
+        <h4 class="teal-text"></h4>
+        <div class="progress container teal">
+            <div class="indeterminate white"></div>
+        </div>
+    </div>
+
+    <div class="story">
+        <img src="Assets/IMG/Logo.png" alt="">
+        <h5>coming_soon</h5>
+    </div>
+
+    <!-- CLOSE STORY BUTTON -->
+    <div class="fixed-action-btn closeStory">
+        <a class="btn-floating btn-large waves-effect waves-light teal">
+            <i class="large material-icons">close</i>
+        </a>
+    </div>
+
+    <!-- FLOATING BUTTON -->
+    <div class="fixed-action-btn backTop">
+        <a class="btn-floating btn-large waves-effect waves-light teal">
+            <i class="large material-icons">expand_less</i>
+        </a>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav class="navAbsolute transparent z-depth-0">
+        <div class="nav-wrapper container">
+            <a data-target="slide-out" class="sidenav-trigger white-text"><i class="material-icons">menu</i></a>
+            <a href="" class="brand-logo white-text"><h5>Ais site</h5></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a class="white-text aboutBtn">About</a></li>
+                <li><a class="white-text portfolioBtn">Portfolio</a></li>
+                <!-- <li><a class="white-text aistempBtn">Ais Template</a></li> -->
+                <a class="waves-effect waves-light btn storyBtn"><i class="material-icons left">all_inclusive</i>Lihat cerita saya</a>
+            </ul>
+        </div>
+    </nav>
+
+    <nav class="navFixed white">
+        <div class="nav-wrapper container">
+            <a data-target="slide-out" class="sidenav-trigger white-text"><i class="material-icons">menu</i></a>
+            <a href="" class="brand-logo white-text"><h5>Ais site</h5></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a class="white-text aboutBtn">About</a></li>
+                <li><a class="white-text portfolioBtn">Portfolio</a></li>
+                <!-- <li><a class="white-text aistempBtn">Ais Template</a></li> -->
+                <a class="waves-effect waves-light btn storyBtn"><i class="material-icons left">all_inclusive</i>Lihat cerita saya</a>
+            </ul>
+        </div>
+    </nav>
+
+    <ul id="slide-out" class="sidenav">
+        <li><div class="user-view" style="height: 30vh">
+            <div class="background" style="display: flex; justify-content: center; align-items: center">
+            <img style="width: 150%" src="Assets/IMG/Sidenav.jpg">
+            </div>
+        </div></li>
+        <li>
+            <a class="waves-effect waves-light btn storyBtn"><i class="material-icons left white-text">all_inclusive</i>Lihat cerita saya</a>
+        </li>
+        <li class="aboutBtn btnLink"><a>About</a></li>
+        <li class="portfolioBtn btnLink"><a>Portfolio</a></li>
+        <!-- <li class="aistempBtn btnLink"><a>Ais Template</a></li> -->
+        <!-- Dropdown Trigger -->
+        <li><a class="dropdown-trigger" href="#!" data-target="dropdown2">Follow me<i class="material-icons right teal-text">arrow_drop_down</i></a></li>
+        <!-- DROPDOWN MENU -->
+        <ul id="dropdown2" class="dropdown-content">
+            <li><a href="https://github.com/rdfariz" target="a_blank">GitHub</a></li>
+            <li><a href="http://www.instagram.com/rd_fariz" target="a_blank">Instagram</a></li>
+            <li><a href="http://www.twitter.com/rfarizinsanp" target="a_blank">Twitter</a></li>
+        </ul>
+    </ul>
+
+
+    <!-- HEADER -->
+    <div class="header">
+        <div class="header_items white-text container center">
+            
+                <h5 class="center white-text">Follow me on</h5>    <!-- PARALLAX CAPTION -->
+                <div class="row" style="margin-top: 1vh">
+                    <div class="col s4">
+                        <a href="https://github.com/rdfariz" target="a_blank" class="container center white-text"><i class="small fab fa-github"></i></a>
+                    </div>
+                    <div class="col s4">
+                        <a href="http://www.instagram.com/rd_fariz" target="a_blank" class="container center white-text"><i class="small fab fa-instagram"></i></a>
+                    </div>
+                    <div class="col s4">
+                        <a href="http://www.twitter.com/rfarizinsanp" target="a_blank" class="container center white-text"><i class="small fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            <!-- <a class="btn-floating btn-large waves-effect waves-light motionBtn"><i class="large material-icons">expand_more</i></a> -->
+        </div>
+    </div>
+
+
+    <!-- ABOUT -->
+    <div id="about"></div>
+    <div class="container" style="margin-top: 10vh">
+        <div class="row">
+            <div class="col s12 center container">
+                <h4 id="aboutTitle">ABOUT ME</h4>
+                <p class="teal-text"></p>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 5vh">
+            
+            <!-- CARD -->
+            <div class="col s12 m6 l4">
+                <div class="card sticky-action">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="Assets/IMG/Person/1.jpg">
+                    </div>
+                    <div class="card-action">
+                        <span class="card-title activator grey-text text-darken-4">Siapa saya?<i class="material-icons right">code</i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Siapa saya?<i class="material-icons right">close</i></span>
+                        <p>Nama saya Raden Fariz panggil saja Fariz/Ais. Saya seorang mahasiswa di Telkom University.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD -->
+            <div class="col s12 m6 l4">
+                <div class="card sticky-action">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="Assets/IMG/Person/2.jpg">
+                    </div>
+                    <div class="card-action">
+                        <span class="card-title activator grey-text text-darken-4">Harian saya?<i class="material-icons right">favorite_border</i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Harian saya?<i class="material-icons right">close</i></span>
+                        <p>Sebagian manis pahitnya cerita yang pernah saya alami, tertuang kedalam sebuah blog..</p>
+                        <a href="http://www.rfarizinsanp.blogspot.com" class="waves-effect waves-light btn"><i class="material-icons left">favorite_border</i>Lihat harian saya</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- CARD -->
+            <div class="col s12 m6 l4">
+                <div class="card sticky-action">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="Assets/IMG/Person/3.jpg">
+                    </div>
+                    <div class="card-action">
+                        <span class="card-title activator grey-text text-darken-4">Cerita saya?<i class="material-icons right">all_inclusive</i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Cerita saya?<i class="material-icons right">close</i></span>
+                        <p>Cerita singkat saya sebagai seorang manusia biasa..</p>
+                        <a class="waves-effect waves-light btn storyBtn"><i class="material-icons left">all_inclusive</i>Lihat cerita saya</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- PARALLAX -->
+    <div class="parallax-container" style="margin-top: 15vh">
+        <div class="captionParallax">
+            <h5 class="center white-text">Follow me on</h5>    <!-- PARALLAX CAPTION -->
+            <div class="row" style="margin-top: 1vh">
+                <div class="col s4">
+                    <a href="https://github.com/rdfariz" target="a_blank" class="container center white-text"><i class="small fab fa-github"></i></a>
+                </div>
+                <div class="col s4">
+                    <a href="http://www.instagram.com/rd_fariz" target="a_blank" class="container center white-text"><i class="small fab fa-instagram"></i></a>
+                </div>
+                <div class="col s4">
+                    <a href="http://www.twitter.com/rfarizinsanp" target="a_blank" class="container center white-text"><i class="small fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="parallax">
+            <div class="filterBlack">
+                <img src="Assets/IMG/Parallax.jpg">    <!-- CUSTOM IMG -->
+            </div>
+        </div>
+    </div>
+
+
+    <!-- PORTFOLIO -->
+    <div id="portfolio"></div>
+    <div class="container" style="margin-top: 10vh">
+
+            <!-- ROW 1 -->
+            <div class="row">
+                <div class="col s12 center">
+                    <h4 id="aboutTitle">PORTFOLIO</h4>
+                    <p class="teal-text">Berikut karya karya yang telah saya buat.</p>
+                </div>
+            </div>
+
+            <!-- ROW 2 -->
+            <div class="row" style="margin-top: 5vh">
+
+                <div class="col s12">
+                    <ul class="tabs tabs-fixed-width">
+                        <li class="tab col s6"><a class="active" href="#page1">Website</a></li>
+                        <li class="tab col s6"><a href="#page2">Lainnya</a></li>
+                    </ul>
+                </div>
+      
+                                    
+                <!-- PAGE1 START -->
+                <div style="margin-top: 1vh" id="page1" class="col s12">
+                    <div class="row">
+                        <div class="card teal">
+                            <div class="container card-content white-text">
+                                <p>Kemampuan saya dalam membuat sebuah karya berupa website baik untuk platform mobile maupun desktop.</p>
+                                <br/>
+                            </div>
+                        </div>
+
+                        <div class="card-tabs">
+                            <ul class="tabs tabs-fixed-width">
+                                <li class="tab"><a class="active" href="#project">Project</a></li>
+                                <li class="tab"><a href="#more_portfolio">More Portfolio</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="card-content" style="margin-top: 4vh">
+                            <div id="project">
+
+                                <div class="row">
+                                    <div class="col s12 center" style="margin-bottom: 1vh; padding: 2vh;">
+                                        <h5>Telkomedia</h5>
+                                        <hr style="width: 20%; background: teal; border: 0.9px solid teal; border-radius: 100px; opacity: 0.7;">
+                                        <p class="teal-text" style="font-weight: 400">HTML5, Pure CSS3, JavaScript</p>
+                                    </div>
+                                    <div style="margin-bottom: 4vh;" class="col s12 m6 l3"><img class="materialboxed responsive-img" src="Assets/IMG/Portfolio/Website/Telkomedia/1.jpg" alt=""></div>
+                                    <div style="margin-bottom: 4vh;" class="col s12 m6 l3"><img class="materialboxed responsive-img" src="Assets/IMG/Portfolio/Website/Telkomedia/2.jpg" alt=""></div>
+                                    <div style="margin-bottom: 4vh;" class="col s12 m6 l3"><img class="materialboxed responsive-img" src="Assets/IMG/Portfolio/Website/Telkomedia/3.jpg" alt=""></div>
+                                    <div style="margin-bottom: 4vh;" class="col s12 m6 l3"><img class="materialboxed responsive-img" src="Assets/IMG/Portfolio/Website/Telkomedia/4.jpg" alt=""></div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col s12 center" style="margin-bottom: 1vh; padding: 2vh;">
+                                        <h5>Pixel App</h5>
+                                        <hr style="width: 20%; background: teal; border: 0.9px solid teal; border-radius: 100px; opacity: 0.7;">
+                                        <p class="teal-text" style="font-weight: 400">HTML5, Pure CSS3, JavaScript, PHP</p>
+                                    </div>
+                                    <div style="margin-bottom: 4vh;" class="col s12 m6 l3"><img class="materialboxed responsive-img" src="Assets/IMG/Portfolio/Website/Pixel App/Screenshot_1.jpg" alt=""></div>
+                                    <div style="margin-bottom: 4vh;" class="col s12 m6 l3"><img class="materialboxed responsive-img" src="Assets/IMG/Portfolio/Website/Pixel App/Screenshot_2.jpg" alt=""></div>
+                                    <div style="margin-bottom: 4vh;" class="col s12 m6 l3"><img class="materialboxed responsive-img" src="Assets/IMG/Portfolio/Website/Pixel App/Screenshot_3.jpg" alt=""></div>
+                                    <div style="margin-bottom: 4vh;" class="col s12 m6 l3"><img class="materialboxed responsive-img" src="Assets/IMG/Portfolio/Website/Pixel App/Screenshot_4.jpg" alt=""></div>
+                                </div>
+                                    
+                            </div>
+
+                            <div id="more_portfolio" class="center">
+                                <div class="row">
+                                
+                                    <div class="col s12 center" style="margin-bottom: 1vh; padding: 2vh;">
+                                        <h5>More Portfolio</h5>
+                                        <hr style="width: 20%; background: teal; border: 0.9px solid teal; border-radius: 100px;">
+                                        <p>Proses penambahan ..</p>
+                                    </div>
+                                    <div style="margin-bottom: 4vh;" class="col s12 m6 l4"><img class="materialboxed responsive-img" src="Assets/IMG/Portfolio/Website/Lainnya/0.png" alt=""></div>
+                                    <div style="margin-bottom: 4vh;" class="col s12 m6 l4"><img class="materialboxed responsive-img" src="Assets/IMG/Portfolio/Website/Lainnya/1.jpg" alt=""></div>
+                                    <div style="margin-bottom: 4vh;" class="col s12 m6 l4"><img class="materialboxed responsive-img" src="Assets/IMG/Portfolio/Website/Lainnya/2.jpg" alt=""></div>
+                                    <div style="margin-bottom: 4vh;" class="col s12 m6 l4"><img class="materialboxed responsive-img" src="Assets/IMG/Portfolio/Website/Lainnya/3.jpg" alt=""></div>
+                                    <div style="margin-bottom: 4vh;" class="col s12 m6 l4"><img class="materialboxed responsive-img" src="Assets/IMG/Portfolio/Website/Lainnya/4.jpg" alt=""></div>
+                                    <div style="margin-bottom: 4vh;" class="col s12 m6 l4"><img class="materialboxed responsive-img" src="Assets/IMG/Portfolio/Website/Lainnya/5.jpg" alt=""></div>
+                                    
+                                    <div style="margin-bottom: 4vh;" class="col s12 m6 l4"><img class="materialboxed responsive-img" src="Assets/IMG/Portfolio/Website/Lainnya/Pure CSS/1.png" alt=""></div>
+                                    <div style="margin-bottom: 4vh;" class="col s12 m6 l4"><img class="materialboxed responsive-img" src="Assets/IMG/Portfolio/Website/Lainnya/Pure CSS/2.png" alt=""></div>
+                                    <div style="margin-bottom: 4vh;" class="col s12 m6 l4"><img class="materialboxed responsive-img" src="Assets/IMG/Portfolio/Website/Lainnya/Pure CSS/3.png" alt=""></div>
+                                    <div style="margin-bottom: 4vh;" class="col s12 m6 l4"><img class="materialboxed responsive-img" src="Assets/IMG/Portfolio/Website/Lainnya/Pure CSS/4.png" alt=""></div>
+                                    <div style="margin-bottom: 4vh;" class="col s12 m6 l4"><img class="materialboxed responsive-img" src="Assets/IMG/Portfolio/Website/Lainnya/Pure CSS/5.png" alt=""></div>
+                                    <div style="margin-bottom: 4vh;" class="col s12 m6 l4"><img class="materialboxed responsive-img" src="Assets/IMG/Portfolio/Website/Lainnya/Pure CSS/6.png" alt=""></div>
+                                    <div style="margin-bottom: 4vh;" class="col s12 m6 l4"><img class="materialboxed responsive-img" src="Assets/IMG/Portfolio/Website/Lainnya/Pure CSS/7.png" alt=""></div>
+                                    <div style="margin-bottom: 4vh;" class="col s12 m6 l4"><img class="materialboxed responsive-img" src="Assets/IMG/Portfolio/Website/Lainnya/Pure CSS/8.png" alt=""></div>
+                                    <div style="margin-bottom: 4vh;" class="col s12 m6 l4"><img class="materialboxed responsive-img" src="Assets/IMG/Portfolio/Website/Lainnya/Pure CSS/9.png" alt=""></div>
+                                    <div style="margin-bottom: 4vh;" class="col s12 m6 l4"><img class="materialboxed responsive-img" src="Assets/IMG/Portfolio/Website/Lainnya/Pure CSS/10.png" alt=""></div>
+                                    <div style="margin-bottom: 4vh;" class="col s12 m6 l4"><img class="materialboxed responsive-img" src="Assets/IMG/Portfolio/Website/Lainnya/Pure CSS/11.png" alt=""></div>
+                                    <div style="margin-bottom: 4vh;" class="col s12 m6 l4"><img class="materialboxed responsive-img" src="Assets/IMG/Portfolio/Website/Lainnya/Pure CSS/12.png" alt=""></div>
+                                    <div style="margin-bottom: 4vh;" class="col s12 m6 l4"><img class="materialboxed responsive-img" src="Assets/IMG/Portfolio/Website/Lainnya/Pure CSS/13.png" alt=""></div>
+                                    <div style="margin-bottom: 4vh;" class="col s12 m6 l4"><img class="materialboxed responsive-img" src="Assets/IMG/Portfolio/Website/Lainnya/Pure CSS/14.png" alt=""></div>
+                                    <div style="margin-bottom: 4vh;" class="col s12 m6 l4"><img class="materialboxed responsive-img" src="Assets/IMG/Portfolio/Website/Lainnya/Pure CSS/15.png" alt=""></div>
+                                </div>
+                            </div>
+                        </div>                        
+                        
+                    </div>
+                </div>
+                <!-- PAGE1 END -->
+
+                <!-- PAGE2 START -->
+                <div style="margin-top: 1vh" id="page2" class="col s12">
+                    <div class="row">
+
+                        <div class="card teal">
+                            <div class="container card-content white-text">
+                                <p>Kemampuan saya membuat sebuah karya bukan hanya berupa website saja, ada karya karya saya dalam bidang lainnya.</p>
+                            </div>
+                        </div>
+
+                            <div class="card-tabs">
+                                <ul class="tabs tabs-fixed-width">
+                                        <li class="tab"><a class="active" href="#afterEffect">After Effect</a></li>
+                                    <li class="tab"><a href="#illustration">Illustration</a></li>
+                                </ul>
+                            </div>
+
+                        
+
+                            <div class="card-content" style="margin-top: 4vh">
+
+                                <div id="afterEffect" class="center">
+                                    <div class="row">
+                                        
+                                        <div class="col s12 center" style="margin-bottom: 1vh; padding: 2vh;">
+                                            <h5>AEP</h5>
+                                            <hr style="width: 20%; background: teal; border: 0.9px solid teal; border-radius: 100px;">
+                                            <p>After Effect Project</p>
+                                        </div>
+
+                                        <div style="margin-bottom: 4vh;" class="col s12 m12 l6">
+                                            <video class="responsive-video" poster="Assets/VID/Poster/1.jpg" controls>
+                                                <source src="Assets/VID/1.mp4" type="video/mp4">
+                                            </video>
+                                        </div>
+                                        <div style="margin-bottom: 4vh;" class="col s12 m12 l6">
+                                            <video class="responsive-video" poster="Assets/VID/Poster/2.jpg" controls>
+                                                <source src="Assets/VID/2.mp4" type="video/mp4">
+                                            </video>
+                                        </div>
+                                        <div style="margin-bottom: 4vh;" class="col s12 m12 l6">
+                                            <video class="responsive-video" poster="Assets/VID/Poster/3.jpg" controls>
+                                                <source src="Assets/VID/3.mp4" type="video/mp4">
+                                            </video>
+                                        </div>
+                                        <div style="margin-bottom: 4vh;" class="col s12 m12 l6">
+                                            <video class="responsive-video" poster="Assets/VID/Poster/4.jpg" controls>
+                                                <source src="Assets/VID/4.mp4" type="video/mp4">
+                                            </video>
+                                        </div>
+                                        <div style="margin-bottom: 4vh;" class="col s12 m12 l6">
+                                            <video class="responsive-video" poster="Assets/VID/Poster/5.jpg" controls>
+                                                <source src="Assets/VID/5.mp4" type="video/mp4">
+                                            </video>
+                                        </div>
+                                        <div style="margin-bottom: 4vh;" class="col s12 m12 l6">
+                                            <video class="responsive-video" poster="Assets/VID/Poster/6.jpg" controls>
+                                                <source src="Assets/VID/6.mp4" type="video/mp4">
+                                            </video>
+                                        </div>
+                                        <div style="margin-bottom: 4vh;" class="col s12 m12 l6">
+                                            <video class="responsive-video" poster="Assets/VID/Poster/7.jpg" controls>
+                                                <source src="Assets/VID/7.mp4" type="video/mp4">
+                                            </video>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="row">
+
+                                        <div class="col s12 center" style="margin-bottom: 1vh; padding: 2vh;">
+                                            <h5>AMV</h5>
+                                            <hr style="width: 20%; background: teal; border: 0.9px solid teal; border-radius: 100px;">
+                                            <p>Anime Music Video</p>
+                                        </div>
+
+                                        <div style="margin-bottom: 4vh;" class="col s12 m12 l6">
+                                            <video class="responsive-video" poster="Assets/VID/AMV/Poster/1.jpg" controls>
+                                                <source src="Assets/VID/AMV/1.mp4" type="video/mp4">
+                                            </video>
+                                        </div>
+                                        <div style="margin-bottom: 4vh;" class="col s12 m12 l6">
+                                            <video class="responsive-video" poster="Assets/VID/AMV/Poster/2.jpg" controls>
+                                                <source src="Assets/VID/AMV/2.mp4" type="video/mp4">
+                                            </video>
+                                        </div>
+                                        <div style="margin-bottom: 4vh;" class="col s12 m12 l6">
+                                            <video class="responsive-video" poster="Assets/VID/AMV/Poster/3.jpg" controls>
+                                                <source src="Assets/VID/AMV/3.mp4" type="video/mp4">
+                                            </video>
+                                        </div>
+                                        <div style="margin-bottom: 4vh;" class="col s12 m12 l6">
+                                            <video class="responsive-video" poster="Assets/VID/AMV/Poster/4.jpg" controls>
+                                                <source src="Assets/VID/AMV/4.mp4" type="video/mp4">
+                                            </video>
+                                        </div>
+                                        <div style="margin-bottom: 4vh;" class="col s12 m12 l6">
+                                            <video class="responsive-video" poster="Assets/VID/AMV/Poster/5.jpg" controls>
+                                                <source src="Assets/VID/AMV/5.mp4" type="video/mp4">
+                                            </video>
+                                        </div>
+                                        <div style="margin-bottom: 4vh;" class="col s12 m12 l6">
+                                            <video class="responsive-video" poster="Assets/VID/AMV/Poster/6.jpg" controls>
+                                                <source src="Assets/VID/AMV/6.mp4" type="video/mp4">
+                                            </video>
+                                        </div>
+                                        <div class="col s12 m12 l12">
+                                            <a href="https://www.youtube.com/channel/UCCDURU1qqksr-mwGEWg4ikg" target="_blank" class="teal-text" style="font-size: 1.35em;">Lihat AMV Lainnya</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!-- END AFTER EFFECT -->
+
+                                <div id="illustration">
+                                    <div class="row">
+                                        <div style="margin-bottom: 4vh" class="col s12 m6 l4"><img class="materialboxed responsive-img" src="Assets/IMG/Portfolio/Illustration/1.jpg" alt=""></div>
+                                        <div style="margin-bottom: 4vh" class="col s12 m6 l4"><img class="materialboxed responsive-img" src="Assets/IMG/Portfolio/Illustration/3.png" alt=""></div>
+                                        <div style="margin-bottom: 4vh" class="col s12 m6 l4"><img class="materialboxed responsive-img" src="Assets/IMG/Portfolio/Illustration/2.jpg" alt=""></div>
+                                        <div style="margin-bottom: 4vh" class="col s12 m6 l4"><img class="materialboxed responsive-img" src="Assets/IMG/Portfolio/Illustration/4.png" alt=""></div>
+                                        <div style="margin-bottom: 4vh" class="col s12 m6 l4"><img class="materialboxed responsive-img" src="Assets/IMG/Portfolio/Illustration/5.jpg" alt=""></div>
+                                        <div style="margin-bottom: 4vh" class="col s12 m6 l4"><img class="materialboxed responsive-img" src="Assets/IMG/Portfolio/Illustration/6.png" alt=""></div>
+                                        <div style="margin-bottom: 4vh" class="col s12 m6 l4"><img class="materialboxed responsive-img" src="Assets/IMG/Portfolio/Illustration/7.jpg" alt=""></div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            
+                        
+
+                    </div>
+                </div>
+                <!-- PAGE2 END -->
+
+            </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- AIS TEMP -->
+    <!-- <div id="aistemplate"></div>
+    <div class="container" style="margin-top: 10vh">
+        <div class="row">
+            <div class="col s12 center">
+                <h4>AIS TEMPLATE</h4>
+                <p class="blue-grey-text"></p>
+            </div>
+        </div>
+        <div class="row" >
+
+            <div class="col s12 m6 l3">
+                <div class="row" style="margin-top: 3vh">
+                    <div class="col s12 center">
+                        <i class="medium material-icons">attach_money</i>
+                        <h5>Price</h5>
+                        <p>The price is affordable</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l3">
+                <div class="row" style="margin-top: 3vh">
+                    <div class="col s12 center">
+                        <i class="medium material-icons">all_inclusive</i>
+                        <h5>20+ Page</h5>
+                        <p>Avaible with 20+ Page</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l3">
+                <div class="row" style="margin-top: 3vh">
+                    <div class="col s12 center">
+                        <i class="medium material-icons">brush</i> 
+                        <h5>Design</h5>
+                        <p>Modern, and Simple Design </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l3">
+                <div class="row" style="margin-top: 3vh">
+                    <div class="col s12 center">
+                        <i class="medium material-icons">layers</i>
+                        <h5>Responsive</h5>
+                        <p>Responsive in all device</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div> -->
+        
+    <!-- <div class="container">
+        <div id="img_header_scroll">
+            <div class="imgList">
+                <img class="imgItems" src="Assets/IMG/Ais/1.jpg" alt="">
+            </div>
+            <div class="imgList">
+                <img class="imgItems" src="Assets/IMG/Ais/2.jpg" alt="">
+            </div>
+            <div class="imgList">
+                <img class="imgItems" src="Assets/IMG/Ais/3.jpg" alt="">
+            </div>
+            <div class="imgList">
+                <img class="imgItems" src="Assets/IMG/Ais/4.jpg" alt="">
+            </div>
+            <div class="imgList">
+                <img class="imgItems" src="Assets/IMG/Ais/5.jpg" alt="">
+            </div>
+        </div>
+    </div> -->
+
+        <!-- Quotes -->
+        <div class="quotes teal" style="margin-top: 5vh">
+                <div class="container" style="margin-top: 5vh; margin-bottom: 5vh">
+                    <div class="row">
+                        <div class="col s12 l12 white-text center">
+                            <h4>EXCLUSIVE ON ENVATO MARKET</h4>
+                            <p>Only available at Envato Market - Ais Temp</p>
+                            <a href="#"><button class="curveBtn transparent white-text">Coming soon</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+    <!-- FOOTER -->
+<footer class="page-footer white darken-1">
+
+            <div class="container">
+                <div class="row">
+                <div class="col l7 s12">
+                    
+                    <div class="col s12 m12 l12 footerLeft hide-on-small-only">
+                        <div class="card-panel transparent z-depth-0">
+
+                            <div class="row valign-wrapper" style="margin-top: 5vh;">
+                                <div class="col s2 ">
+                                    <img src="Assets/IMG/Person/Me.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+                                </div>
+                                <div class="col s10">
+                                    <blockquote class="teal-text" style="font-size: 1.2em; border-left: 2.5px solid teal;">
+                                        "Yakin tidak yakin, sesuatu yang tidak diyakini bisa menjadi yakin, dan mungkin tidak mungkin,
+                                        sesuatu yang tidak mungkin bisa menjadi mungkin bahkan bisa atau bahkan sudah bisa"
+                                    </blockquote>
+                                </div>
+                            </div>
+
+                            <div class="row valign-wrapper">
+                                <div class="col s2 ">
+                                    <img src="Assets/IMG/Person/Me.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+                                </div>
+                                <div class="col s10">
+                                    <blockquote class="teal-text" style="font-size: 1.2em; border-left: 2.5px solid teal;">
+                                        "Nothing is impossible"
+                                    </blockquote>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col m12 s12 l5 footerRight">
+                    <h5 class="teal-text center">Contact me</h5>
+
+                    <ul class="collapsible z-depth-0" style="margin-top: 5vh;">
+                        <li >
+                            <div class="collapsible-header white lighten-4 blue-text"><i class="material-icons">email</i>Email</div>
+                            <div class="collapsible-body blue lighten-2"><span>rfarizinsanp@gmail.com</span></div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header white lighten-4 blue-text"><i class="material-icons">place</i>Maps</div>
+                            <div class="collapsible-body blue lighten-2"><span>Sumber, Kab.Cirebon. Jawa Barat</span></div>
+                        </li>
+                        <li>
+                            <a href="https://github.com/rdfariz" target="a_blank"><div class="collapsible-header white lighten-4 blue-text"><i class="small fab fa-github"></i>Github - @rdfariz</div></a>
+                        </li>
+                        <li>
+                            <a href="http://www.instagram.com/rd_fariz" target="a_blank"><div class="collapsible-header white lighten-4 blue-text"><i class="small fab fa-instagram"></i>Instagram - rd_fariz</div></a>
+                        </li>
+                        <li>
+                            <a href="http://www.twitter.com/rfarizinsanp" target="a_blank"><div class="collapsible-header white lighten-4 blue-text"><i class="small fab fa-twitter"></i>Twitter - @rfarizinsanp</div></a>
+                        </li>
+                    </ul>
+
+                </div>
+                </div>
+            </div>
+            <div class="footer-copyright teal" style="margin-top: 5vh">
+                <div class="container">
+                Made with <i class="tiny material-icons">favorite</i> in my heart
+                </div>
+            </div>
+
+    </footer>
+
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>  
+    <script src="Assets/JS/script.js"></script>
+
+</body>
+</html>
